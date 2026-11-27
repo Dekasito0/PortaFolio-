@@ -1,0 +1,157 @@
+/* Estilos sencillos y limpios para principiantes */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f3f5;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-right: 15px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Ocultar elementos */
+.hidden {
+  display: none;
+}
+
+/* Secciones */
+section {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #111;
+  margin-top: 0;
+}
+
+/* Botones */
+.btn-ver-juegos {
+  display: inline-block;
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-ver-juegos:hover {
+  background-color: #004ea3;
+}
+
+/* Tarjetas de proyectos */
+.tarjeta-proyecto {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  border-radius: 6px;
+}
+
+.tarjeta-proyecto h3 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+/* Imágenes de los juegos */
+.img-proyecto {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.btn-codigo {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-codigo:hover {
+  text-decoration: underline;
+}
+
+/* Botón del menú */
+#menuBtn {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#menuBtn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Formulario */
+form input, form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}

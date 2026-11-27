@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio - Máximo Zaracho Lionel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <header>
+    <h1>Portafolio de Videojuegos</h1>
+    <button id="menuBtn">☰ Menú</button>
+    <nav id="navLinks" class="hidden">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Mis Juegos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio">
+    <h2>Hola, soy Máximo Zaracho Lionel</h2>
+    <p>Desarrollador de Videojuegos y Estudiante de Programación</p>
+    <a href="#proyectos" class="btn-ver-juegos">¡Ver mis juegos!</a>
+  </section>
+
+  <hr>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy Máximo Zaracho Lionel. Esta es la presentación de los proyectos y juegos que fui desarrollando durante mi cursada en la materia <strong>Fundamentos de la Programación</strong>. A través de estos trabajos apliqué conceptos clave de lógica, estructuras de datos y desarrollo web para crear propuestas divertidas e interactivas.</p>
+  </section>
+
+  <hr>
+
+  <!-- Proyectos -->
+  <section id="proyectos">
+    <h2>Mis Juegos</h2>
+    
+    <!-- Juego 1 -->
+    <div class="tarjeta-proyecto">
+      <img src="chomchom.webp.webp" alt="Tiburón Chom Chom" class="img-proyecto">
+      <h3>El juego del Tiburón Chom Chom</h3>
+      <p>Un divertido juego animado donde controlás al temible tiburón "Chom Chom" en una cacería submarina, intentando atrapar a un asustadizo cangrejo que huye a toda velocidad mientras esquivás obstáculos bajo el agua.</p>
+      
+      <!-- Enlace a tu Google Drive para ver el código / ejecutable -->
+      <a href="https://drive.google.com/file/d/18Dhz12k3mL4TRmpYrqmVxeItQL-Xm7NH/view?usp=sharing" target="_blank" class="btn-codigo">Ver código / Jugar (Drive) 🔗</a>
+    </div>
+
+    <!-- Juego 2 -->
+    <div class="tarjeta-proyecto">
+      <img src="elconurbano.webp.webp" alt="El Conurbano RPG" class="img-proyecto">
+      <h3>El Conurbano</h3>
+      <p>Un RPG de estilo pixelado ambientado en el conurbano bonaerense. El héroe debe levantar la legendaria llave en una épica batalla de caballeros de barrio, enfrentándose a enemigos en las esquinas y superando misiones en un ambiente único.</p>
+      
+      <!-- Enlace a Google Drive para El Conurbano -->
+      <a href="https://drive.google.com/file/d/1IrCFahum_HOSuPqB2fWcIozTjLJGBDAY/view?usp=sharing" target="_blank" class="btn-codigo">Ver código / Jugar (Drive) 🔗</a>
+    </div>
+
+    <!-- Juego 3 -->
+    <div class="tarjeta-proyecto">
+      <img src="ciberciruja.webp.webp" alt="Ciber-Ciruja" class="img-proyecto">
+      <h3>Ciber-Ciruja</h3>
+      <p>Un juego de exploración y recolección con estética cyber-punk y de barrio. Recorré las calles y callejones recolectando chatarra electrónica del piso (como placas de video, placas madre y procesadores) para armar tu inventario y sobrevivir.</p>
+      
+      <!-- Enlace a Google Drive para Ciber-Ciruja -->
+      <a href="https://drive.google.com/file/d/1bcT4o14PPLlRkTv72mPheLtdcpbUpl3s/view?usp=sharing" target="_blank" class="btn-codigo">Ver código / Jugar (Drive) 🔗</a>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <div>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+      </div>
+      <br>
+      <div>
+        <label for="email">Correo:</label><br>
+        <input type="email" id="email" placeholder="tu@correo.com" required>
+      </div>
+      <br>
+      <div>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" rows="4" placeholder="Escribí tu mensaje acá..." required></textarea>
+      </div>
+      <br>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+    
+    <p id="formFeedback" class="hidden"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 - Desarrollado por Máximo Zaracho Lionel. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
